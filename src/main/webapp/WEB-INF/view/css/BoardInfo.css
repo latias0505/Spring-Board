@@ -1,0 +1,44 @@
+/* BoardInfo.css */
+#loginText a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 추가한 스타일 */
+.table-container {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-container tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+/* 추가한 스타일 */
+.page-header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
